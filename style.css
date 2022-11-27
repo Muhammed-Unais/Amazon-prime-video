@@ -1,0 +1,338 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section start */
+
+
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #0f171e;
+    padding: 20px 40px;
+    align-items: center;
+    top: 0;
+    
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.section1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.section1 img{
+    width: 112px;
+    height: 40px;
+    margin-right: 20px;
+}
+.section1 a{
+    font-size: 17px;
+    font-family:"Amazon Ember";
+    color: white;
+    margin-right: 8px;
+}
+.section1 select{
+    font-size: 17px;
+    background: none;
+    border: none;
+    color: white;
+    font-family:"Amazon Ember";
+    margin-right: 15px;
+    cursor: pointer;
+}
+.section2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.section2 button{
+    width: 122px;
+    height: 36.5px;
+    color: #f1f2f3;
+    background-color: #0f79af;
+    border: none;
+    margin: 0;
+    margin-right: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.sec2-arrange select{
+    background: none;
+    border: none;
+    color: white;
+}
+.sec2-arrange{
+    display: flex;
+    align-items: center;
+}
+.sec2-arrange img{
+    margin-left: 10px;
+}
+
+
+/* Header section end----------------------- */
+
+
+
+/* Banner section start-------------------- */
+
+.banner-container{
+    background-image: url(/Images/Banner\ 1.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    padding: 64px 5%;
+    font-family:'Amazon Ember 400', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.left-section h1{
+    margin: 0;
+    color: white;
+    font-size: 44.8px;
+    width: 568px;
+    height: 49.49;
+    font-family: "Amazon Ember";
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.left-section p{
+    width: 568px;
+    height: 58px;
+    font-size: 24px;
+    color: white;
+    font-family: "Amazon Ember";
+    font-weight: 300;
+}
+.left-section button{
+    width: 280px;
+    height: 48px;
+    background-color: #0f79af;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+.left-section button span{
+    width: 240px;
+    height: 20px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    font-family: "Amazon Ember";
+}
+
+/* Banner 1 end---------------------------- */
+
+/* --------------Banner Grid section--------- */
+
+.banner-grid-container{
+    width: 100%;
+    min-height: 70vh;
+}
+
+.inner-container{
+    margin: 10px 5%;
+    display: flex;
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+    
+}
+
+.wrapper img{
+    width: 100%;
+    cursor: pointer;
+    
+}
+.left-text-sec h2{
+    font-size: 44px;
+    color: black;
+    font-family: "Amazon Ember";
+    font-weight: 300;
+}
+.left-text-sec p{
+    font-size: 22px;
+    font-family: "Amazon Ember";
+    font-weight: 350;
+    color: black;
+
+}
+.left-text-sec{
+    padding: 0 5% 0 0;
+}
+
+
+/* Banner two Start-------------------- */
+
+.bannertwo-container{
+    background-image: url(/Images/Banner2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}    
+.bannertwo-container .right-section h1{
+    margin: 0;
+    color: white;
+    width: 512px;
+    height: 96px;
+    font-size: 40px;
+    font-family: "Amazon Ember";
+    font-weight: 700;
+}
+.bannertwo-container .right-section p{
+    color: white;
+    width: 511px;
+    height: 27px;
+    font-size: 21px;
+    font-family: "Amazon Ember";
+    font-weight: 300;
+} 
+.bannertwo-container .right-section button{
+    color: white;
+    background-color: #0f79af;
+    width: 280px;
+    height: 54px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Banner Two End-------------------------- */
+
+
+
+/* Banner Three start---------------------- */
+
+.bannerthree-container{
+    background-image: url(/Images/banner3.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.bannerthree-container .right-section h1{
+    margin: 0;
+    color: white;
+    width: 511px;
+    height: 96px;
+    font-size: 40px;
+    font-family: "Amazon Ember";
+}
+.bannerthree-container .right-section p{
+    width: 511px;
+    height: 136px;
+    color: white;
+    font-size: 21px;
+    font-family:"Amazon Ember";
+}
+.bannerthree-container .right-section button{
+    width: 280px;
+    height: 54px;
+    color: white;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}.right-section .text{
+    font-size: 18px;
+    font-family: "Amazon Ember"
+}
+
+/* Banner three end -------------------*/
+
+
+
+
+/* Banner Four Start--------------------- */
+
+.bannerfour-container{
+    background-image: url(/Images/Banner\ \ 4.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 64px 5%;
+}
+.bannerfour-container .left-section h1{
+    margin: 0;
+    color: white;
+    width: 511px;
+    height: 48px;
+    font-size: 40px;
+    font-family: "Amazon Ember";
+}
+.bannerfour-container .left-section p{
+    color: white;
+    width: 511px;
+    height: 109px;
+    font-size: 21px;
+    font-family: "Amazon Ember";
+}
+.bannerfour-container .left-section button{
+    color: white;
+    background-color: #0f79af;
+    width: 280px;
+    height: 54px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+   
+}
+.left-section .text{
+    
+    font-size: 18px;
+    font-family: "Amazon Ember";
+}
+
+
+/* Bannner Four end--------------------- */
+
+
+footer{
+    background-color: rgb(48, 47, 47);
+    height: 130px;
+    text-align: center;
+}
+footer img{
+    margin-top: 20px;
+}
+footer a{
+    color: #0f79af;
+    text-decoration: none;
+}
+.footer-last{
+    margin: 15px 0 10px 0;
+    color: grey;
+}
+
